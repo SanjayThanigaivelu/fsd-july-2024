@@ -1,0 +1,78 @@
+.top-container{
+  background-color: #04464B;
+  padding: 20px;
+  color: #82F382;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.free-text{
+  background-color: #024127;
+  padding: 5px;
+}
+
+.small-text{
+  font-size: 0.6rem; 
+}
+
+.button{
+  border: 1px solid #82F382;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.circle-container{
+  margin-top: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle{
+  height: 150px;
+  width: 150px;
+  box-sizing: border-box;
+  background: linear-gradient(to left top,#1c939b,#04464B);
+  display: inline-block;
+  border-radius: 50%;
+  padding-top: 50px;
+  color: white;
+  margin: 20px;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.green-bg{
+  background-color: green;
+}
+.red-bg{
+  background-color: red;
+}
+
+.product{
+  display: inline-block;
+  margin: 10px;
+  padding: 18px;
+  margin-left: 20px;
+width: 200px;
+border: 2px solid black;
+border-radius: 5px;
+}
+.product:hover{
+  background-color: black;
+  transition:all 0.2s ease;
+transform: scale(1.1);
+color: white;
+}
+.principal, .intrest ,.year{
+color: red;
+}
+.my-flex{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  
+}
