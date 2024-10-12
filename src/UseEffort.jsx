@@ -5,7 +5,7 @@ export default function UseEffort() {
     let [count1 , setCout1]=useState(0);
 
   useEffect(()=>{
-    console.log(`count1 is updated for ${count1} ` )
+    console.log(`count1 is updated for ${count1}`)
   },[count1]);
 
   useEffect(()=>{
